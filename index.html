@@ -8,12 +8,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row">
+            <header class="row">
                 <div class="col-md-6">
                     <img class="title-logo" src="uda.png" alt="Logo">
                 </div>
@@ -21,39 +19,52 @@
                     <h1 class="text-thin title-super">Mandeep Singh</h1>
                     <h4>Front-end Ninja</h4>
                 </div>
-            </div>
+            </header>
             <div class="row">
                 <div class="col-md-12">
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
+            <section class="row" id = "main">
+                <article class="col-md-12">
                     <img src="batman.jpg" class="img-responsive" alt="batman and joker">
+                </article>
+            </section>
+            <section id = "featured">
+                <article class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </div>
+                </article>
+                <article class="row text-center">
+                    <div class="col-md-4">
+                        <img src="dead.jpg" class="img-responsive" alt="deadpool">
+                        <h3 class="text-uppercase">deadpool</h3>
+                        <p><a href="https://github.com/mandissingh/portfolio">Link to project</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="civil.jpg" class="img-responsive" alt="civil war">
+                        <h3 class="text-uppercase">Civil War</h3>
+                        <p><a href="https://github.com/mandissingh/portfolio">Link to project</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="minion.jpg" class="img-responsive" alt="minion">
+                        <h3 class="text-uppercase">minion</h3>
+                        <p><a href="https://github.com/mandissingh/portfolio">Link to project</a></p>
+                    </div>
+                </article>
+            </section>
+            <footer>
+                <div class="row " >
+                    <div class="col-md-12 ">
+                        <hr class="hr">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Featured Work</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img src="dead.jpg" class="img-responsive" alt="deadpool">
-                    <h3 class="text-uppercase">deadpool</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-                <div class="col-md-4">
-                    <img src="civil.jpg" class="img-responsive" alt="civil war">
-                    <h3 class="text-uppercase">Civil War</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-                <div class="col-md-4">
-                    <img src="minion.jpg" class="img-responsive" alt="minion">
-                    <h3 class="text-uppercase">minion</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-            </div>
+                <p>Made by: Mandeep Singh</p>
+                <p>Contact information: <a href="mailto:mandissingh1@gmail.com">mandissingh1@gmail.com</a>.</p>
+            </footer>
         </div>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </body>
-</html
+</html>
